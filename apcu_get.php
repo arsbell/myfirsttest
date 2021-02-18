@@ -1,5 +1,5 @@
 <?php
 
-echo apcu_fetch（'ccc'）；
+echo apcu_fetch('ccc')；
 
 ?>
