@@ -1,5 +1,5 @@
 <?php
-
-echo apcu_fetch('ccc')；
-
+$bar = 'BAR';
+apcu_store('foo', $bar);
+var_dump(apcu_fetch('foo'));
 ?>
